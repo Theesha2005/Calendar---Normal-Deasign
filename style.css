@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('lkj.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.calendar-container {
+  max-width: 400px;
+  margin: 30px auto;
+  background: rgba(17, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.header {
+  text-align: center;
+}
+
+.date-number {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.time {
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.month-year {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.day {
+  font-size: 20px;
+  margin-top: -10px;
+  color: #ff6fa3;
+}
+
+.weekdays, .days .week {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.weekdays div {
+  font-weight: bold;
+  color: #f8f8f8;
+}
+
+.days span {
+  width: 14%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.highlight {
+  border-bottom: 3px solid yellow;
+}
+
+.notes {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #eee;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
